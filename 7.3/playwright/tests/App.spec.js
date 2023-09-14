@@ -17,6 +17,6 @@ test("test", async ({ page }) => {
   // Click text=Как перенести своё дело в онлайн
   await page.click("text=Как перенести своё дело в онлайн");
   await expect(page).toHaveURL(
-    "https://netology.ru/programs/kak-perenesti-svoyo-delo-v-onlajn-bp"
-  );
-});
+    "https://netology.ru/programs/kak-perenesti-svoyo-delo-v-onlajn-bp")
+   });
+
